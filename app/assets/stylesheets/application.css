@@ -13,6 +13,20 @@
  *= require_tree .
  *= require_self
  */
-bg-container {
-  background-color: burlywood;
+.bg-container {
+  background-color: rgb(255, 214, 80);
+  width: 70%;
+  border-left: solid 5px;
+  border-radius: 3px;
+
 }
+
+.doc-container {
+  margin: 10px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* class="col-md-6 border-left border-primary border-5 p-3 mb-2 bg-warning bg-opacity-25" */
